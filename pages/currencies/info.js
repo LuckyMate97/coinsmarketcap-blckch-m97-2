@@ -3,7 +3,7 @@ import Header from '../../components/Header';
 import solana from '../../components/assets/solana.png';
 import Usd from '../../components/assets/svg/usd';
 import { useEffect, useState } from 'react';
-import Graph from '../../components/graph'
+import Graph from '../../components/Graph';
 import Chat from '../../components/Chat';
 
 const styles = {
