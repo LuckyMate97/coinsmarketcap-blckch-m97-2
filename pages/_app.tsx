@@ -7,13 +7,12 @@ import { CoinMarketProvider } from '../contexts/context'
 function MyApp({ Component, pageProps }: AppProps) {
    
   return (
-    <MoralisProvider
-    
+    <MoralisProvider   
       serverUrl={process.env.NEXT_PUBLIC_SERVER!}
       appId={process.env.NEXT_PUBLIC_APP_ID!}
       >
       {/* <GunProvider> */}
-      <CoinMarketProvider children>
+      <CoinMarketProvider>
         <Component {...pageProps} />
       </CoinMarketProvider>
       {/* </GunProvider> */}
