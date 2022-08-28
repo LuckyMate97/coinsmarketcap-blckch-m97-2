@@ -7,7 +7,7 @@ import ChevronDown from '../components/assets/svg/chevronDown';
 import Button from './Button';
 import ChatCard from './ChatCard';
 // import { GunContext } from '../contexts/gunContext';
-import { faker } from '@faker-js/faker';
+// import { faker } from '@faker-js/faker';
 
 const styles = {
     bullishLabel: `flex cursor-pointer active:bg-green-600 items-center text text-green-600 border border-green-600 h-min px-2 rounded-lg`,
