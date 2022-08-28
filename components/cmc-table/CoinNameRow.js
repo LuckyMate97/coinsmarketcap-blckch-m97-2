@@ -21,7 +21,7 @@ const styles = {
 
 const CoinNameRow = ({ name, icon, clicked }) => {
 
-    // const { openModal } = useContext(CoinMarketContext)
+    const { openModal } = useContext(CoinMarketContext)
 
     const coinIcon = () => {
         switch (name) {
