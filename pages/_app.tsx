@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
    
   return (
     <MoralisProvider
-    children
+    
       serverUrl={process.env.NEXT_PUBLIC_SERVER!}
       appId={process.env.NEXT_PUBLIC_APP_ID!}
       >
