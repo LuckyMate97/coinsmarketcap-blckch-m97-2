@@ -3,8 +3,8 @@ import Comment from "./assets/svg/comment"
 import Heart from "./assets/svg/heart"
 import MoreHorizontal from "./assets/svg/moreHorizontal"
 import Share from "./assets/svg/share"
-import BearishFilled from "./buttons/BearishFilled"
-import BullishFilled from "./buttons/bullishFilled"
+import BearishFilled from "./Buttons/BearishFilled"
+import BullishFilled from "./Buttons/BullishFilled"
 import Image from "next/image"
 
 const styles = {
